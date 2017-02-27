@@ -1,0 +1,467 @@
+*{
+	box-sizing:border-box;
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	width:100%;
+	height:100%;
+	background-color: #f5f5f0;
+}
+
+
+
+.one{
+	z-index:999;
+	-webkit-box-shadow: -1px 5px 72px -9px rgba(3,1,1,1);
+    -moz-box-shadow: -1px 5px 72px -9px rgba(3,1,1,1);
+    box-shadow: -1px 5px 72px -9px rgba(3,1,1,1);
+	border-radius:5px;
+	margin:auto;
+	margin-top:5%;
+	width:70%;
+	height:10%;
+	background: -moz-linear-gradient(268deg, rgba(255,225,191,1) 0%, rgba(250,175,110,1) 100%); /* ff3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,225,191,1)), color-stop(100%, rgba(250,175,110,1))); /* safari4+,chrome */
+	background: -webkit-linear-gradient(268deg, rgba(255,225,191,1) 0%, rgba(250,175,110,1) 100%); /* safari5.1+,chrome10+ */
+	background: -o-linear-gradient(268deg, rgba(255,225,191,1) 0%, rgba(250,175,110,1) 100%); /* opera 11.10+ */
+	background: -ms-linear-gradient(268deg, rgba(255,225,191,1) 0%, rgba(250,175,110,1) 100%); /* ie10+ */
+	background: linear-gradient(182deg, rgba(255,225,191,1) 0%, rgba(250,175,110,1) 100%); 
+
+}
+.calculator-icon{
+	text-align:center;
+	margin-top:20px;
+}
+.fa-calculator{
+	margin-top:10px;
+}
+.header-description h3{
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-size:25px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+}
+.two{
+	z-index:999;
+	-webkit-box-shadow: -1px 5px 72px -9px rgba(3,1,1,1);
+    -moz-box-shadow: -1px 5px 72px -9px rgba(3,1,1,1);
+    box-shadow: -1px 5px 72px -9px rgba(3,1,1,1);
+	border-radius:5px;
+	margin:auto;
+	margin-top:2%;
+	width:70%;
+	height:60%;
+	display:flex;
+	flex-direction:column;
+	background: -moz-linear-gradient(268deg, rgba(255,225,191,1) 0%, rgba(250,175,110,1) 100%); /* ff3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,225,191,1)), color-stop(100%, rgba(250,175,110,1))); /* safari4+,chrome */
+	background: -webkit-linear-gradient(268deg, rgba(255,225,191,1) 0%, rgba(250,175,110,1) 100%); /* safari5.1+,chrome10+ */
+	background: -o-linear-gradient(268deg, rgba(255,225,191,1) 0%, rgba(250,175,110,1) 100%); /* opera 11.10+ */
+	background: -ms-linear-gradient(268deg, rgba(255,225,191,1) 0%, rgba(250,175,110,1) 100%); /* ie10+ */
+	background: linear-gradient(182deg, rgba(255,225,191,1) 0%, rgba(250,175,110,1) 100%); ;
+}
+.line1, .line2,.line3,.line4,.line5,.line6,.line7{
+
+	width:100%;
+	height:35px;
+	display:flex;
+	justify-content:space-around;
+	margin-bottom:30px;
+}
+.butoanele{
+	width:20%;
+	height:100%;
+	border-radius:4px;
+	font-size:20px;
+	background: -moz-linear-gradient(268deg, rgba(255,255,255,1) 0%, rgba(53,78,189,1) 100%); /* ff3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(53,78,189,1))); /* safari4+,chrome */
+	background: -webkit-linear-gradient(268deg, rgba(255,255,255,1) 0%, rgba(53,78,189,1) 100%); /* safari5.1+,chrome10+ */
+	background: -o-linear-gradient(268deg, rgba(255,255,255,1) 0%, rgba(53,78,189,1) 100%); /* opera 11.10+ */
+	background: -ms-linear-gradient(268deg, rgba(255,255,255,1) 0%, rgba(53,78,189,1) 100%); /* ie10+ */
+	background: linear-gradient(182deg, rgba(255,255,255,1) 0%, rgba(53,78,189,1) 100%); 
+	color:black;
+}
+.butoanele:hover{
+	color:white;
+}
+#myform{
+	width:45%;
+	height:35px;
+	}
+	
+#screen{
+	width:100%;
+	height:100%;
+	border-radius:4px;
+	font-size:20px;
+}
+.line1:first-child{
+	margin-top:15px;
+
+}
+.equal{
+	width:45%;
+	height:35px;
+}
+.difcolor{
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(54%, rgba(128,45,27,1)), color-stop(100%, rgba(255,0,0,1))); /* safari4+,chrome */
+	background: -webkit-linear-gradient(273deg, rgba(255,255,255,1) 0%, rgba(128,45,27,1) 54%, rgba(255,0,0,1) 100%); /* safari5.1+,chrome10+ */
+	background: -o-linear-gradient(273deg, rgba(255,255,255,1) 0%, rgba(128,45,27,1) 54%, rgba(255,0,0,1) 100%); /* opera 11.10+ */
+	background: -ms-linear-gradient(273deg, rgba(255,255,255,1) 0%, rgba(128,45,27,1) 54%, rgba(255,0,0,1) 100%); /* ie10+ */
+	background: linear-gradient(177deg, rgba(255,255,255,1) 0%, rgba(128,45,27,1) 54%, rgba(255,0,0,1) 100%); 
+	color:white;
+}
+.difcolor:hover{
+color:black;
+}
+
+.delete{
+	background-color:blue;
+	color:white;
+}
+
+
+/*-----------------------------------------------------------------------------------
+animation
+---------------------------------------------------------------------------------------*/
+.one:before{
+	position:absolute;
+	top:5px;
+	left:5px;
+	content:"\0032";
+	color:black;
+	opacity:0.3;
+	font-size:30px;
+	font-weight:bold;
+	animation: item1 5s linear infinite;
+	z-index:-1;
+}
+
+@keyframes item1{
+	0%{top:5px;left:5px;color:black;opacity:0;}
+	25%{top:165px;left:15px; color:black;opacity:1;transform:rotate(55deg);}
+	50%{top:335px;left:55px; color:black;opacity:1;transform:rotate(155deg);}
+	75%{top:500px;left:135px; color:black;opacity:0.4;transform:rotate(255deg);}
+	100%{top:605px;left:185px; color:black;opacity:0; transform:rotate(360deg);}
+}
+
+.one:after{
+	position:absolute;
+	top:-35px;
+	left:155px;
+	content:"\0036";
+	color:black;
+	opacity:0.3;
+	font-size:30px;
+	font-weight:bold;
+	animation: item2 6s 1s linear infinite;
+	z-index:-1;
+}
+@keyframes item2{
+	0%{top:55px;left:155px;color:black;opacity:0;}
+	25%{top:155px;left:5px; color:black;opacity:1;transform:rotate(360deg);}
+	50%{top:335px;left:200px; color:black;opacity:1;transform:rotate(55deg);}
+	75%{top:500px;left:5px; color:black;opacity:0.8;transform:rotate(360deg);}
+	100%{top:655px;left:155px; color:black;opacity:0;transform:rotate(55deg);}
+}
+.calculator-icon:before{
+	position:absolute;
+	top:-28px;
+	left:35px;
+	content:"\0038";
+	color:black;
+	opacity:0.3;
+	font-size:30px;
+	font-weight:bold;
+	animation: item3 6s 3s linear infinite;
+	z-index:-1;
+}
+
+@keyframes item3{
+	0%{top:0px;left:15px;color:black;opacity:0;}
+	25%{top:165px;left:235px; color:black;opacity:1;transform:scale(1.5,1.5);}
+	50%{top:330px;left:15px; color:black;opacity:1;}
+	75%{top:500px;left:50px; color:black;opacity:0.5;transform:rotate(55deg);}
+	100%{top:655px;left:80px; color:black;opacity:0;transform:rotate(155deg);}
+}
+
+.calculator-icon:after{
+	position:absolute;
+	top:155px;
+	left:-55px;
+	content:"\0037";
+	color:black;
+	opacity:0.3;
+	font-size:30px;
+	font-weight:bold;
+	animation: item4 6s 5s linear infinite;
+	z-index:-1;
+}
+@keyframes item4{
+	0%{top:155px;left:55px;color:black;opacity:0;}
+	25%{top:295px;left:255px; color:black;opacity:1;}
+	50%{top:395px;left:185px; color:black;opacity:1;}
+	75%{top:505px;left:100px; color:black;opacity:0.3;}
+	100%{top:655px;left:50px; color:black;opacity:0;transform:rotate(155deg);}
+}
+
+.header-description:before{
+	position:absolute;
+	top:135px;
+	left:255px;
+	content:"\0033";
+	color:black;
+	opacity:0.3;
+	font-size:30px;
+	font-weight:bold;
+	animation: item5 4s 3s linear infinite;
+	z-index:-1;
+}
+
+@keyframes item5{
+	0%{top:155px;left:255px;color:black;opacity:0;}
+	25%{top:235px;left:205px; color:black;opacity:1;}
+	50%{top:325px;left:165px; color:black;opacity:0;}
+	75%{top:455px;left:105px; color:black;opacity:0.8;}
+	100%{top:555px;left:35px; color:black;opacity:0;}
+}
+
+.header-description:after{
+	position:absolute;
+	top:-10px;
+	left:355px;
+	content:"\002B";
+	color:black;
+	opacity:0.3;
+	font-size:40px;
+	font-weight:bold;
+	animation: item6 8s linear infinite;
+	z-index:-1;
+}
+
+@keyframes item6{
+	0%{top:-10px;left:355px; color:black;opacity:0.7;}
+	25%{top:235px;left:355px; color:black;opacity:0.7;}
+	50%{top:525px;left:355px; color:black;opacity:1;}
+	75%{top:455px;left:355px; color:black;opacity:0.8;}
+	100%{top:500px;left:355px; color:black;opacity:1;}
+}
+
+.two:before{
+	position:absolute;
+	top:-55px;
+	left:555px;
+	content:"\00F7";
+	color:black;
+	opacity:0.3;
+	font-size:40px;
+	font-weight:bold;
+	animation: item7 8s 1s linear infinite;
+	z-index:-1;
+}
+
+@keyframes item7{
+	0%{top:-55px;left:555px; color:black;opacity:0.7;}
+	25%{top:235px;left:555px; color:black;opacity:0.7;}
+	50%{top:525px;left:555px; color:black;opacity:1;}
+	75%{top:455px;left:555px; color:black;opacity:0.8;}
+	100%{top:500px;left:555px; color:black;opacity:1;}
+}
+.two:after{
+	position:absolute;
+	top:-55px;
+	left:705px;
+	content:"\00D7";
+	color:black;
+	opacity:0.3;
+	font-size:40px;
+	font-weight:bold;
+	animation: item8 8s 2s linear infinite;
+	z-index:-1;
+}
+
+@keyframes item8{
+	0%{top:-55px;left:705px; color:black;opacity:0.7;}
+	25%{top:235px;left:705px; color:black;opacity:0.7;}
+	50%{top:525px;left:705px; color:black;opacity:1;}
+	75%{top:455px;left:705px; color:black;opacity:0.8;}
+	100%{top:500px;left:705px; color:black;opacity:1;}
+}
+.forKey:before{
+	position:absolute;
+	top:-55px;
+	left:855px;
+	content:"\2212";
+	color:black;
+	opacity:0.3;
+	font-size:40px;
+	font-weight:bold;
+	animation: item9 8s 3s linear infinite;
+	z-index:-1;
+}
+
+@keyframes item9{
+	0%{top:-55px;left:855px; color:black;opacity:0.7;}
+	25%{top:235px;left:855px; color:black;opacity:0.7;}
+	50%{top:525px;left:855px; color:black;opacity:1;}
+	75%{top:455px;left:855px; color:black;opacity:0.8;}
+	100%{top:500px;left:855px; color:black;opacity:1;}
+}
+
+
+.forKey:after{
+	position:absolute;
+	top:-55px;
+	left:1005px;
+	content:"\003D";
+	color:black;
+	opacity:0.3;
+	font-size:40px;
+	font-weight:bold;
+	animation: item10 8s 4s linear infinite;
+	z-index:-1;
+}
+@keyframes item10{
+	0%{top:-55px;left:1005px; color:black;opacity:0.7;}
+	25%{top:235px;left:1005px; color:black;opacity:0.7;}
+	50%{top:525px;left:1005px; color:black;opacity:1;}
+	75%{top:455px;left:1005px; color:black;opacity:0.8;}
+	100%{top:500px;left:1005px; color:black;opacity:1;}
+}
+
+
+#myform:before{
+	position:absolute;
+	top:-55px;
+	left:1125px;
+	content:"\221A";
+	color:black;
+	opacity:0.3;
+	font-size:40px;
+	font-weight:bold;
+	animation: item11 8s 5s linear infinite;
+	z-index:-1;
+}
+
+@keyframes item11{
+	0%{top:-55px;left:1125px; color:black;opacity:0.7;}
+	25%{top:235px;left:1125px; color:black;opacity:0.7;}
+	50%{top:525px;left:1125px; color:black;opacity:1;}
+	75%{top:455px;left:1125px; color:black;opacity:0.8;}
+	100%{top:500px;left:1125px; color:black;opacity:1;}
+}
+
+#myform:after{
+	position:absolute;
+	top:5px;
+	right:5px;
+	content:"\0030";
+	color:black;
+	opacity:0.3;
+	font-size:30px;
+	font-weight:bold;
+	animation: item12 6s linear infinite;
+	z-index:-1;
+}
+
+@keyframes item12{
+	0%{top:5px;right:5px;color:black;opacity:0;}
+	25%{top:165px;right:15px; color:black;opacity:1;transform:rotate(55deg);}
+	50%{top:335px;right:55px; color:black;opacity:1;transform:rotate(155deg);}
+	75%{top:500px;right:135px; color:black;opacity:0.4;transform:rotate(255deg);}
+	100%{top:605px;right:185px; color:black;opacity:0; transform:rotate(360deg);}
+}
+
+
+
+.head:before{
+	position:absolute;
+	top:-30px;
+	left:1300px;
+	content:"\0031";
+	color:black;
+	opacity:0.3;
+	font-size:30px;
+	font-weight:bold;
+	animation: item13 7s 1s linear infinite;
+	z-index:-1;
+}
+
+@keyframes item13{
+	0%{top:5px;left:1300px;color:black;opacity:1;}
+	25%{top:165px;left:1315px; color:black;opacity:1;transform:rotate(55deg);}
+	50%{top:335px;left:1385px; color:black;opacity:1;transform:rotate(155deg);}
+	75%{top:500px;left:1425px; color:black;opacity:0.4;transform:rotate(255deg);}
+	100%{top:605px;left:1455px; color:black;opacity:0;transform:rotate(360deg);}
+}
+.head:after{
+	position:absolute;
+	top:10px;
+	left:1300px;
+	content:"\0034";
+	color:black;
+	opacity:0;
+	font-size:30px;
+	font-weight:bold;
+	animation: item14 7s 3s linear infinite;
+	z-index:-1;
+}
+
+@keyframes item14{
+	0%{top:10px;left:1300px;color:black;opacity:0;}
+	25%{top:135px;left:1270px; color:black;opacity:0;transform:rotate(55deg);}
+	50%{top:335px;left:1350px; color:black;opacity:1;transform:rotate(155deg);}
+	75%{top:500px;left:1400px; color:black;opacity:0.4;transform:rotate(255deg)}
+	100%{top:605px;left:1450px; color:black;opacity:0;transform:rotate(355deg)}
+}
+
+#btn-right-bracket:before{
+	position:absolute;
+	top:50px;
+	left:1500px;
+	content:"\0035";
+	color:black;
+	opacity:0;
+	font-size:30px;
+	font-weight:bold;
+	animation: item15 8s 3s linear infinite;
+	z-index:-1;
+}
+
+@keyframes item15{
+	0%{top:50px;left:1500px;color:black;opacity:0;}
+	25%{top:105px;left:1480px; color:black;opacity:0;transform:scale(0.5,0.5)}
+	50%{top:255px;left:1350px; color:black;opacity:1;transform:scale(1,1)}
+	75%{top:380px;left:1420px; color:black;opacity:0.4;}
+	100%{top:585px;left:1500px; color:black;opacity:0;transform:scale(0.5,0.5)}
+}	
+#btn-right-bracket:after{
+	position:absolute;
+	top:10px;
+	left:1420px;
+	content:"\0039";
+	color:black;
+	opacity:0;
+	font-size:30px;
+	font-weight:bold;
+	animation: item16 9s 5s linear infinite;
+	z-index:-1;
+}
+
+@keyframes item16{
+	0%{top:10px;left:1420px;color:black;opacity:0;}
+	25%{top:105px;left:1420px; color:black;opacity:1;transform:scale(0.5,0.5)}
+	50%{top:255px;left:1420px; color:black;opacity:0;transform:scale(1,1)}
+	75%{top:380px;left:1420px; color:black;opacity:1;}
+	100%{top:585px;left:1420px; color:black;opacity:0;transform:scale(0.5,0.5)}
+}	
+
+
+
+	
+	
+

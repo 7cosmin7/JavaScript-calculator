@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, maximum-scale=1">
+<title>JavaScript Calcuator</title>
+<link rel="icon" href="images/calculator-logo-icon.png"  type="image/png">
+<link href="main.css" rel="stylesheet">
+<link href="mediaquery.css" rel="stylesheet">
+<script src="script.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+<header class="one">
+   
+   <div class="calculator-icon">
+   
+     <span><i class="fa fa-calculator fa-3x" aria-hidden="true"></i><span>
+   </div>
+   
+   <div class="header-description">
+   
+   <div class="head">
+     <h3 class="forKey ">JavaScript Calculator</h3>
+	 </div>
+	
+   </div>
+
+   </header>
+
+   
+<section class="two">
+   <div class="line1">
+      <button type="button" class="butoanele difcolor delete" id="btnC" value="C" onclick="nothing()">C</button>
+	  
+	  <form id="myform">
+	     <input type="text" class="screen" id="screen" autofocus />
+		 </form>
+		 <button type="button" class="butoanele difcolor delete" id="btnU" value=""onclick="undo()">&#8592;</button>
+   </div>
+   
+   <div class="line2">
+      <button type="button" class="butoanele" id="btn7" value="7" onclick="show7()">7</button>
+	  <button type="button" class="butoanele" id="btn8" value="8" onclick="show8()">8</button>
+	     <button type="button" class="butoanele" id="btn9" value="9" onclick="show9()">9</button>
+	  <button type="button" class="butoanele difcolor" id="btn-plusmn" value="-" onclick="showPlusMn()">&plusmn;</button>
+   </div>
+  
+   <div class="line3">
+         <button type="button" class="butoanele" id="btn4" value="4" onclick="show4()">4</button>
+	  <button type="button" class="butoanele" id="btn5" value="5" onclick="show5()">5</button>
+	     <button type="button" class="butoanele" id="btn6" value="6" onclick="show6()">6</button>
+	  <button type="button" class="butoanele difcolor" id="btn-divide" value="/" onclick="showDivide()">&divide;</button>
+   </div>
+  
+   <div class="line4">
+         <button type="button" class="butoanele" id="btn1" value="1" onclick="show1()">1</button>
+	  <button type="button" class="butoanele" id="btn2" value="2" onclick="show2()">2</button>
+	     <button type="button" class="butoanele" id="btn3" value="3" onclick="show3()">3</button>
+	  <button type="button" class="butoanele difcolor" id="btn-multiple" value="*" onclick="showMultiple()">x</button>
+   </div>
+   
+   <div class="line5">
+         <button type="button" class="butoanele" id="btn0" value="0" onclick="show0()">0</button>
+	  <button type="button" class="butoanele" id="btn00" value="00" onclick="show00()">00</button>
+	     <button type="button" class="butoanele" id="btn-000" value="000" onclick="show000()">000</button>
+	  <button type="button" class="butoanele difcolor" id="btn-minus" value="-" onclick="showMinus()">-</button>
+   </div>
+  
+   <div class="line6">
+         <button type="button" class="butoanele difcolor" id="btn-dot" value="." onclick="showDot()">.</button>
+	  <button type="button" class="butoanele difcolor" id="square" value="square" onclick="showRootSqr()">&#8730;</button>
+	     <button type="button" class="butoanele difcolor" id="btn-patrat" value="patrat" onclick="showSquare()">x <sup>2</sup></button>
+	  <button type="button" class="butoanele difcolor" id="btn-plus" value="+" onclick="showPlus()">+</button>
+   </div>
+ 
+   <div class="line7">
+   
+         <button type="button" class="butoanele difcolor" id="btn-left-bracket" value="(" onclick="showLeftBracket()">(</button>
+	  <button type="button" class="butoanele equal difcolor" id="btn-equal" value="=" onclick="showEqual()">=</button>
+	     <button type="button" class="butoanele difcolor" id="btn-right-bracket" value=")" onclick="showRightBracket()">)</button>
+	
+   </div>
+</section>
+
+<!--
+<footer class="three">
+</footer>
+-->
+
+<body>
+ 
+</body>
+</html>
